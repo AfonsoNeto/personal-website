@@ -16,13 +16,21 @@
 title: Afonso Neto
 email: afonso.pontesneto@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Full stack developer focused on Ruby on Rails
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://afonso.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: AfonsoNet0
-github_username:  AfonsoNeto
+url: https://www.afonso.dev # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name:  'Afonso Neto'
+  email: afonso.pontesneto@gmail.com
+  url:   https://afonso.dev
+
+social:
+  twitter:  AfonsoNet0
+  linkedin: afonso-neto-15350069
+  github:   AfonsoNeto
+
+google_analytics: 'UA-53234038-3'
 
 # Build settings
 markdown: kramdown
