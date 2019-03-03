@@ -1,10 +1,15 @@
 ---
 ---
 
+body { font-size: 1em !important; }
+
 div.sidebar {
   div.container {
     div.sidebar-about {
       text-align: center;
+
+      h1 { font-size: 2em; }
+      // p.lead { font-size: 1em; }
 
       img#profile-picture {
         margin: 0 auto;
