@@ -5,6 +5,11 @@ div.sidebar {
   div.container {
     div.sidebar-about {
       text-align: center;
+
+      img#profile-picture {
+        margin: 0 auto;
+        border-radius: 50%;
+      }
     }
   }
 }
