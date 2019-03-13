@@ -1,0 +1,26 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.5.1
+    working_directory: ~/repo
+    steps:
+      - checkout # check out the code in the project directory
+
+      - run:
+          name: Install dependencies
+          command: bundle install
+
+      - run:
+        name: Clear the room
+        command: rm -rf _site/
+
+      - run:
+        name: Build Jekyll
+        command: bundle exec jekyll build
+
+      - run: echo "Built!"
