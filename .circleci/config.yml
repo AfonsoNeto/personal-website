@@ -16,11 +16,10 @@ jobs:
           command: bundle install
 
       - run:
-          name: Clear the room
-          command: rm -rf _site/
-
-      - run:
           name: Build Jekyll
+          command: rm -rf _site/
           command: bundle exec jekyll build
 
-      - run: echo "Built!"
+      - run:
+          name: Send files to S3
+          command: aws s3 synx _site/ s3://afonso.dev --acl public-read --delete
