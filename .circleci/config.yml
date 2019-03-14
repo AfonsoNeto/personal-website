@@ -27,3 +27,7 @@ jobs:
       - run:
           name: Send files to S3
           command: aws s3 sync _site/ s3://afonso.dev --acl public-read --delete
+
+      - run:
+          name: Create CloudFront invalidation
+          command: aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --path '/*'
