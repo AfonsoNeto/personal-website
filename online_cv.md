@@ -19,20 +19,22 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
 
 ### Summary of Qualifications
 
-* Over 7 years of experience in web development  
-* Very strong background with Ruby on Rails  
-* Strong Professional communication skills  
-* Studied at Federal University  
+* Over 7 years of experience in web development
+* Very strong background with Ruby on Rails
+* Strong Professional communication skills
+* Studied at Federal University
 
 ----
 
 ### Technical Skills
 
 #### Basic/Mid-level
-  * Over 7 years of experience in web development  
-  * Very strong background with Ruby on Rails  
-  * Strong Professional communication skills  
-  * Studied at Federal University  
+  * AWS (Amazon Web Services)
+    * S3; EC2; RDS; ELB; CloudFront; SQS;
+  * ElasticSearch
+  * Docker
+  * Test-driven development
+  * Swift and Objective-C
 
 #### Advanced/Expert-level
   * Ruby on Rails
