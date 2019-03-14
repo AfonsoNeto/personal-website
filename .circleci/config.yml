@@ -21,10 +21,16 @@ jobs:
             rm -rf _site/
             bundle exec jekyll build
 
+      - persist_to_workspace:
+        root: /home/built_site
+        paths: _site
+
   deploy:
     docker:
       - image: cibuilds/aws:1.16.1
     steps:
+      - attach_workspace:
+          at: /home/built_site
       - run:
           name: Send files to S3
           command: aws s3 sync _site/ s3://afonso.dev --acl public-read --delete
