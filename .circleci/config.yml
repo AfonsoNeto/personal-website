@@ -13,9 +13,9 @@ jobs:
 
       - run:
           name: Install dependencies
-          command:
+          command: bash -c '
             pip install awscli
-            bundle install
+            bundle install'
 
       - run:
           name: Build Jekyll
