@@ -16,11 +16,11 @@ jobs:
           command: bundle install
 
       - run:
-        name: Clear the room
-        command: rm -rf _site/
+          name: Clear the room
+          command: rm -rf _site/
 
       - run:
-        name: Build Jekyll
-        command: bundle exec jekyll build
+          name: Build Jekyll
+          command: bundle exec jekyll build
 
       - run: echo "Built!"
