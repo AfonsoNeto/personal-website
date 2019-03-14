@@ -13,14 +13,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: |
-            bundle install
-
-            echo 'Installing pip'
-            apt install python-pip python-dev
-
-            echo 'Installing AWS CLI'
-            pip install awscli
+          command: bundle install
 
       - run:
           name: Build Jekyll
@@ -28,6 +21,21 @@ jobs:
             rm -rf _site/
             bundle exec jekyll build
 
-      - run:
-          name: Send files to S3
-          command: aws s3 synx _site/ s3://afonso.dev --acl public-read --delete
+  deploy:
+    docker:
+      - image: cibuilds/aws:1.16.1
+      steps:
+        - run:
+            name: Send files to S3
+            command: aws s3 sync _site/ s3://afonso.dev --acl public-read --delete
+
+workflows:
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
