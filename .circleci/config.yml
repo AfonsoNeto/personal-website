@@ -13,9 +13,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: bash -c '
-            pip install awscli
-            bundle install'
+          command: bundle install
 
       - run:
           name: Build Jekyll
@@ -25,3 +23,7 @@ jobs:
       - run:
           name: Send files to S3
           command: aws s3 synx _site/ s3://afonso.dev --acl public-read --delete
+
+      - run:
+          name: Create AWS CloudFront invalidation
+          command: aws cloudfront create-invalidation --distribution-id ${AWS_CLOUNDFRONT_DISTRIBUTION_ID} --paths '/*'
