@@ -26,6 +26,8 @@ jobs:
             bundle exec jekyll build
 
   deploy:
+    docker:
+      - image: circleci/ruby:2.5.1
     steps:
       - run:
           name: Send files to S3
