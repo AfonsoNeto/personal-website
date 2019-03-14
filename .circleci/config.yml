@@ -14,8 +14,7 @@ jobs:
       - run:
           name: Install dependencies
           command: |
-            sudo apt-get -y -qq update
-            sudo apt-get install python-pip python-dev build-essential
+            sudo apt-get install python-pip python-dev
             sudo pip install --upgrade awscli
             bundle install
 
@@ -25,22 +24,6 @@ jobs:
             rm -rf _site/
             bundle exec jekyll build
 
-  deploy:
-    docker:
-      - image: circleci/ruby:2.5.1
-    steps:
       - run:
           name: Send files to S3
           command: aws s3 sync _site/ s3://afonso.dev --acl public-read --delete
-
-workflows:
-  version: 2
-  build-and-deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
