@@ -63,7 +63,7 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
   * Designed and implemented user interfaces focused at user's experience
 
 #### Full stack developer *at [Fortes Tecnologia][fortes]{:target="_blank"} (Apr 2016 - Jan 2017)*
-  * Participate of initial development team, actively helping with design and architectural decisions thinking in forthcoming scalability and ensuring security
+  * Participate of initial development team of an important Rails application, actively helping with design and architectural decisions thinking in forthcoming scalability and ensuring security
   * Worked directly with product owners and company founders to maximize efficiency and delivery accuracy
   * Developed and deployed a large numbers of features to the main app
   * Designed and implemented user interfaces focused at user's experience
