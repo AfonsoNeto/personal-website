@@ -30,9 +30,10 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
 
 #### Basic/Mid-level
   * AWS (Amazon Web Services)
-    * S3; EC2; RDS; ELB; CloudFront; SQS;
+    * S3; EC2; ECS; RDS; ELB; CloudFront; SQS; Route53;
   * ElasticSearch
   * Docker
+  * Coffescript
   * Test-driven development
   * Swift and Objective-C
 
@@ -48,6 +49,7 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
   * Agile methods
   * UI/UX
   * Front-end with jQuery, Bootstrap, CSS3/SASS and HTML5
+  * PHP and Wordpress
 
 ----
 
