@@ -35,8 +35,11 @@ google_analytics: 'UA-53234038-3'
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hyde-plus
+languages: ["en", "pt-BR"]
+exclude_from_localizations: ["assets"]
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
