@@ -12,3 +12,14 @@ about:
   cv:
     online: CV online
     check: Dê uma olhada no meu
+
+cv:
+  pdf_version: Versão em PDF
+  or: ou
+  doc_version: Versão em DOC
+  summary:
+    title: Resumo de Qualificaçõe
+    web_dev_year: Mais de 7 anos de experiência com desenvolvimento web
+    rails_bg: Ampla experiência com Ruby on Rails
+    prof_communication: Ótima capacidade de comunicação profissional
+    study: Estudou em área relacionada a Desenvolvimento e Engenharia de Software

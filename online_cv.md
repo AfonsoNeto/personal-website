@@ -5,11 +5,11 @@ hide_title: false
 permalink: /cv/
 ---
 
-Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
+Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 
 ----
 
-## Ruby on Rails Developer
+## {% t about.ruby_dev %}
 **Email:** [me@afonso.dev](mailto:me@afonso.dev)  
 **Skype ID:** afonsonet0  
 **Github:** [https://github.com/AfonsoNeto](https://github.com/AfonsoNeto)  
@@ -17,12 +17,12 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
 
 ----
 
-### Summary of Qualifications
+### {% t cv.summary.title %}
 
-* Over 7 years of experience in web development
-* Very strong background with Ruby on Rails
-* Strong Professional communication skills
-* Studied in field related to Software development and engineering
+* {% t cv.summary.web_dev_year       %}
+* {% t cv.summary.rails_bg           %}
+* {% t cv.summary.prof_communication %}
+* {% t cv.summary.study              %}
 
 ----
 
@@ -32,9 +32,10 @@ Download: [PDF Version][cv-pdf] or [DOC version][cv-doc]
   * AWS (Amazon Web Services)
     * S3; EC2; ECS; RDS; ELB; CloudFront; SQS; Route53;
   * ElasticSearch
+  * RESTful APIs
   * Docker
   * Coffescript
-  * Test-driven development
+  * TDD (Test-driven development)
   * Swift and Objective-C
 
 #### Advanced/Expert-level

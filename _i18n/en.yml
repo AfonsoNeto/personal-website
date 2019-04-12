@@ -12,3 +12,14 @@ about:
   cv:
     online: online CV
     check: Check my
+
+cv:
+  pdf_version: PDF Version
+  or: or
+  doc_version: DOC Version
+  summary:
+    title: Summary of Qualifications
+    web_dev_year: Over 7 years of experience in web development
+    rails_bg: Very strong background with Ruby on Rails
+    prof_communication: Strong Professional communication skills
+    study: Studied in field related to Software development and engineering
