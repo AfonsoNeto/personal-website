@@ -26,31 +26,31 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 
 ----
 
-### Technical Skills
+### {% t cv.technical.title %}
 
-#### Basic/Mid-level
+#### {% t cv.technical.basic_mid.title %}
   * AWS (Amazon Web Services)
     * S3; EC2; ECS; RDS; ELB; CloudFront; SQS; Route53;
   * ElasticSearch
-  * RESTful APIs
+  * {% t cv.technical.basic_mid.rest %}
   * Docker
   * Coffescript
   * TDD (Test-driven development)
-  * Swift and Objective-C
+  * {% t cv.technical.basic_mid.ios %}
 
-#### Advanced/Expert-level
+#### {% t cv.technical.advanced.title %}
   * Ruby on Rails
   * Rspec
-  * SQL and relational databases (Postgres)
-  * NoSQL databases (Redis)
+  * {% t cv.technical.advanced.sql %}
+  * {% t cv.technical.advanced.nosql %}
   * Sidekiq
   * Git
-  * Continuous Integration
-  * Linux/OS-X command line
-  * Agile methods
+  * {% t cv.technical.advanced.ci %}
+  * {% t cv.technical.advanced.cli %}
+  * {% t cv.technical.advanced.agile %}
   * UI/UX
-  * Front-end with jQuery, Bootstrap, CSS3/SASS and HTML5
-  * PHP and Wordpress
+  * {% t cv.technical.advanced.frontend %}
+  * {% t cv.technical.advanced.php_wordpress %}
 
 ----
 

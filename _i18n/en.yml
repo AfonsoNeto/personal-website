@@ -23,3 +23,19 @@ cv:
     rails_bg: Very strong background with Ruby on Rails
     prof_communication: Strong Professional communication skills
     study: Studied in field related to Software development and engineering
+  technical:
+    title: Technical Skills
+    basic_mid:
+      title: Basic/Mid-level
+      rest: RESTful APIs
+      ios: Swift and Objective-C
+    advanced:
+      title: Advanced/Expert-level
+      sql: SQL and relational databases (MySQL and Postgres)
+      nosql: NoSQL databases (Redis)
+      ci: Continuous Integration
+      cli: Linux/OSX command line
+      agile: Agile methods
+      frontend: Front-end development with jQuery, Bootstrap, CSS3/SASS and HTML5
+      php_wordpress: PHP and Wordpress
+

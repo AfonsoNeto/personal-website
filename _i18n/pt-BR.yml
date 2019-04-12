@@ -23,3 +23,18 @@ cv:
     rails_bg: Ampla experiência com Ruby on Rails
     prof_communication: Ótima capacidade de comunicação profissional
     study: Estudou em área relacionada a Desenvolvimento e Engenharia de Software
+  technical:
+    title: Habilidades Técnicas
+    basic_mid:
+      title: Nível Básico/Intermediário
+      rest: APIs RESTful
+      ios: Swift e Objective-C
+    advanced:
+      title: Nível Avançado/Expert
+      sql: SQL e bancos de dados relacionais (MySQL e Postgres)
+      nosql: Bancos de dados não relacionais NoSQL (Redis)
+      ci: Integração Contínua
+      cli: Linhas de comando Linux/OSX
+      agile: Métodos Ágeis
+      frontend: Desenvolvimento Front-end com jQuery, Bootstrap, CSS3/SASS e HTML5
+      php_wordpress: PHP e Wordpress
