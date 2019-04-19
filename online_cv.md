@@ -65,11 +65,11 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
   * {% t cv.work_experience.ffit.maintained_ios %}
   * {% t cv.work_experience.ffit.designed_ui_ux %}
 
-#### Full stack developer *at [Fortes Tecnologia][fortes]{:target="_blank"} (Apr 2016 - Jan 2017)*
-  * Participate of initial development team of an important Rails application, actively helping with design and architectural decisions thinking in forthcoming scalability and ensuring security
-  * Worked directly with product owners and company founders to maximize efficiency and delivery accuracy
-  * Developed and deployed a large numbers of features to the main app
-  * Designed and implemented user interfaces focused at user's experience
+#### {% t cv.work_experience.fortes.full_stack_dev %} *{% t cv.work_experience.fortes.at %} [{% t cv.work_experience.fortes.title %}][fortes]{:target="_blank"} ({% t date.month.min.april %} 2016 - {% t date.month.min.january %} 2017)*
+  * {% t cv.work_experience.fortes.initial_team %}
+  * {% t cv.work_experience.fortes.work_with_pos %}
+  * {% t cv.work_experience.fortes.developed_features %}
+  * {% t cv.work_experience.ffit.designed_ui_ux %}
 
 #### Full stack developer *at [Elore Tecnologia em Educação][elore]{:target="_blank"} (2017 - Present)*
   * Contributed to first production release of our large Learning Management System
