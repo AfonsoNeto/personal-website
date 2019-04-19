@@ -54,11 +54,11 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 
 ----
 
-### Work Experience
+### {% t cv.work_experience.title %}
 
-#### Front-end developer *at [FFIT Serviços de Inovação e Tecnologia][ffit-linkedin]{:target="_blank"} (Oct 2012 - Dec 2013)*
-  * Designed and implemented user interfaces focused at user's experience
-  * Integrated visual web components with back-end application logic built with Ruby on Rails
+#### {% t cv.work_experience.ffit.front_end_dev %} *{% t cv.work_experience.ffit.at %} [{% t cv.work_experience.ffit.title %}][ffit-linkedin]{:target="_blank"} ({% t date.month.min.october %} 2012 - {% t date.month.min.december %} 2013)*
+  * {% t cv.work_experience.ffit.designed_ui_ux %}
+  * {% t cv.work_experience.ffit.integrated_ror %}
 
 #### Full stack and mobile developer *at [FFIT Serviços de Inovação e Tecnologia][ffit-linkedin]{:target="_blank"} (Jan 2014 - Apr 2016)*
   * Developed and deployed features for existing Ruby on Rails application ([TratBem](http://tratbem.com/){:target="_blank"})

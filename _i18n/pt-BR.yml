@@ -1,3 +1,9 @@
+date:
+  month:
+    min:
+      october: Out
+      december: Dez
+
 about:
   title: Sobre mim
   i_am_an: Sou um experiente
@@ -38,3 +44,11 @@ cv:
       agile: Métodos Ágeis
       frontend: Desenvolvimento Front-end com jQuery, Bootstrap, CSS3/SASS e HTML5
       php_wordpress: PHP e Wordpress
+  work_experience:
+    title: Eperiência Profissional
+    ffit:
+      title: FFIT Serviços de Inovação e Tecnologia
+      front_end_dev: Desenvolvedor Front-end
+      designed_ui_ux: Projetou e implementou interfaces com foco na experiência do usuário
+      integrated_ror: Integrou componentes visuais web com a lógica da aplicação back-end construída com Ruby on Rails
+      at: na
