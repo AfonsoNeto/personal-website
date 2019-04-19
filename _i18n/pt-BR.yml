@@ -59,9 +59,14 @@ cv:
       maintained_ios: Manuteni aplicação iOS existente usando Objective-C e Swift
     fortes:
       title: Fortes Tecnologia
-      full_stack_dev: Full stack developer
+      full_stack_dev: Desenvolvedor Full stack
       initial_team: Participei da primeira equipe de uma importante aplicação Rails, ajudando ativamente com o planejamento e decisões arquiteturais pensando em uma futura escalabilidade e garantindo melhor segurança
       work_with_pos: Trabalhei diretamente com os Product owners (POs) e fundadores da empresa para maximizar a eficiencia e assertividade nas entregas
       developed_features: Desenvolvi e entreguei diversas funcionalidades para a aplicação principal da empresa
       at: na
+    elore:
+      title: Elore Tecnologia em Educação
+      present: Atual
+      first_release: Contribuí com o primeiro lançamento do nosso Sistema de Gerenciamento de Aprendizado (LMS)
+      at: at
 

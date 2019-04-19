@@ -71,12 +71,11 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
   * {% t cv.work_experience.fortes.developed_features %}
   * {% t cv.work_experience.ffit.designed_ui_ux %}
 
-#### Full stack developer *at [Elore Tecnologia em Educação][elore]{:target="_blank"} (2017 - Present)*
-  * Contributed to first production release of our large Learning Management System
-  * Developed and deployed a large numbers of features for existing Ruby on Rails application
-  * Worked directly with product owners and company founders in order to maximize efficiency and delivery accuracy
-  * Developed and deployed a large numbers of features to the main app
-  * Designed and implemented user interfaces focused at user's experience
+#### {% t cv.work_experience.fortes.full_stack_dev %} *{% t cv.work_experience.elore.at %} [{% t cv.work_experience.elore.title %}][elore]{:target="_blank"} ({% t date.month.min.january %} 2017 - {% t cv.work_experience.elore.present %})*
+  * {% t cv.work_experience.elore.first_release %}
+  * {% t cv.work_experience.ffit.developed_features %}
+  * {% t cv.work_experience.fortes.work_with_pos %}
+  * {% t cv.work_experience.ffit.designed_ui_ux %}
 
 ----
 
