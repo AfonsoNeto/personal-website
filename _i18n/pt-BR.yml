@@ -1,6 +1,8 @@
 date:
   month:
     min:
+      january: Jan
+      april: Abr
       october: Out
       december: Dez
 
@@ -49,6 +51,9 @@ cv:
     ffit:
       title: FFIT Serviços de Inovação e Tecnologia
       front_end_dev: Desenvolvedor Front-end
-      designed_ui_ux: Projetou e implementou interfaces com foco na experiência do usuário
-      integrated_ror: Integrou componentes visuais web com a lógica da aplicação back-end construída com Ruby on Rails
+      designed_ui_ux: Projetei e implementei interfaces com foco na experiência do usuário
+      integrated_ror: Integrei componentes visuais web com a lógica da aplicação back-end construída com Ruby on Rails
       at: na
+      full_stack_and_mobile: Desenvolvedor Full stack e Mobile
+      developed_features: Desenvolvi e entreguei funcionalidades para aplicação Ruby on Rails existente
+      maintained_ios: Manuteni aplicação iOS existente usando Objective-C e Swift

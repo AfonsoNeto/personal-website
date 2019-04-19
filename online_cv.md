@@ -60,10 +60,10 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
   * {% t cv.work_experience.ffit.designed_ui_ux %}
   * {% t cv.work_experience.ffit.integrated_ror %}
 
-#### Full stack and mobile developer *at [FFIT Serviços de Inovação e Tecnologia][ffit-linkedin]{:target="_blank"} (Jan 2014 - Apr 2016)*
-  * Developed and deployed features for existing Ruby on Rails application ([TratBem](http://tratbem.com/){:target="_blank"})
-  * Maintained existing iOS application using Objective-C and Swift
-  * Designed and implemented user interfaces focused at user's experience
+#### {% t cv.work_experience.ffit.full_stack_and_mobile %} *{% t cv.work_experience.ffit.at %} [FFIT Serviços de Inovação e Tecnologia][ffit-linkedin]{:target="_blank"} ({% t date.month.min.january %} 2014 - {% t date.month.min.april %} 2016)*
+  * {% t cv.work_experience.ffit.developed_features %} ([TratBem](http://tratbem.com/){:target="_blank"})
+  * {% t cv.work_experience.ffit.maintained_ios %}
+  * {% t cv.work_experience.ffit.designed_ui_ux %}
 
 #### Full stack developer *at [Fortes Tecnologia][fortes]{:target="_blank"} (Apr 2016 - Jan 2017)*
   * Participate of initial development team of an important Rails application, actively helping with design and architectural decisions thinking in forthcoming scalability and ensuring security

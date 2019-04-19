@@ -1,6 +1,8 @@
 date:
   month:
     min:
+      january: Jan
+      april: Apr
       october: Oct
       december: Dec
 
@@ -52,4 +54,7 @@ cv:
       designed_ui_ux: Designed and implemented user interfaces focused in user's experience
       integrated_ror: Integrated visual web components with back-end application logic built with Ruby on Rails
       at: at
+      full_stack_and_mobile: Full stack and mobile developer
+      developed_features: Developed and deployed features for existing Ruby on Rails application
+      maintained_ios: Maintained existing iOS application using Objective-C and Swift
 
