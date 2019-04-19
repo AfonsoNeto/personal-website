@@ -10,10 +10,10 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 ----
 
 ## {% t about.ruby_dev %}
-**Email:** [me@afonso.dev](mailto:me@afonso.dev)  
+**Email:** [me@afonso.dev](mailto:me@afonso.dev){:target="_blank"}  
 **Skype ID:** afonsonet0  
-**Github:** [https://github.com/AfonsoNeto](https://github.com/AfonsoNeto)  
-**Linkedin:** [https://www.linkedin.com/in/afonso-neto-15350069/](https://www.linkedin.com/in/afonso-neto-15350069/)  
+**Github:** [https://github.com/AfonsoNeto](https://github.com/AfonsoNeto){:target="_blank"}  
+**Linkedin:** [https://www.linkedin.com/in/afonso-neto-15350069/](https://www.linkedin.com/in/afonso-neto-15350069/){:target="_blank"}  
 
 ----
 
