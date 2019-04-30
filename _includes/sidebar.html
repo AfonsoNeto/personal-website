@@ -5,7 +5,7 @@
       <h1>
         {{ site.title }}
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{% t site_description %}</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -43,6 +43,6 @@
         target="_blank"></a> -->
     </div>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>Fortaleza, Ceará - {% t br %} - {{ site.time | date: '%Y' }}</p>
   </div>
 </div>
