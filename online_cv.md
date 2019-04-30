@@ -79,13 +79,13 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 
 ----
 
-### Volunteer Experience
+### {% t cv.volunteer_experience.title %}
 
-#### Teaching Initiation Program *at [Instituto UFC Virtual][ufc-virtual]{:target="_blank"} (2011.2 - 2012.1)*
-  * **Monitoring in Object oriented Programming discipline** during the bachelor degree in Sistemas e Mídias Digitais at Universidade Federal do Ceará.
+#### {% t cv.volunteer_experience.ufc_virtual.title %} *{% t cv.volunteer_experience.ufc_virtual.at %} [Instituto UFC Virtual][ufc-virtual]{:target="_blank"} (2011.2 - 2012.1)*
+  * **{% t cv.volunteer_experience.ufc_virtual.monitoring %}** {% t cv.volunteer_experience.ufc_virtual.during_bachelor %}
 
-#### Java Web Developer *on [Solar Project][solar]{:target="_blank"} (2012.1 - 2012.2)*
-  * **Worked as Java Web developer intern** at Virtual UFC Institute's rating system during the bachelor degree on Sistemas e Mídias Digitais at Universidade Federal do Ceará.
+#### {% t cv.volunteer_experience.solar.title %} *{% t cv.volunteer_experience.solar.on_proj %} [{% t cv.volunteer_experience.solar.solar_project %}][solar]{:target="_blank"} (2012.1 - 2012.2)*
+  * **{% t cv.volunteer_experience.solar.worked_as_java_dev %}** {% t cv.volunteer_experience.solar.at_virtual_ufc %}
 
 ----
 
