@@ -70,3 +70,16 @@ cv:
       first_release: Contribuí com o primeiro lançamento do nosso Sistema de Gerenciamento de Aprendizado (LMS)
       at: at
 
+  volunteer_experience:
+    title: Experiência como Voluntário
+    ufc_virtual:
+      title: Programa de Iniciação à Docência
+      at: "no"
+      monitoring: Monitoria na disciplina de Programação Orientada a Objetos
+      during_bachelor: durante o bacharelado em Sistemas e Mídias Digitais pela Universidade Federal do Ceará.
+    solar:
+      title: Desenvolvedor Java Web
+      on_proj: "no"
+      solar_project: Projeto Solar
+      worked_as_java_dev: Trabalhei como estagiário em desenvolvimento web com Java
+      at_virtual_ufc: no sistema de avaliação do Instituto UFC Virtual durante o bacharelado em Sistemas e Mídias Digitais pela Universidade Federal do Ceará.
