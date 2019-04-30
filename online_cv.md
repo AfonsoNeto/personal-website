@@ -89,10 +89,10 @@ Download: [{% t cv.pdf_version %}][cv-pdf] or [{% t cv.doc_version %}][cv-doc]
 
 ----
 
-### Education
+### {% t cv.education.title %}
 
-#### Sistemas e Mídias Digitais *- Bachelor*
-  * Unfinished bachelor degree in Sistemas e Mídias Digitais with focus on Multimedia Software at [**Universidade Federal do Ceará (UFC)**](http://www.smd.ufc.br/pt/sobre-o-curso/){:target="_blank"}
+#### Sistemas e Mídias Digitais *- {% t cv.education.bachelor %}*
+  * {% t cv.education.unfinished_at %} [**Universidade Federal do Ceará (UFC)**](http://www.smd.ufc.br/pt/sobre-o-curso/){:target="_blank"}
 
 ----
 

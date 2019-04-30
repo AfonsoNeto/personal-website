@@ -83,3 +83,8 @@ cv:
       solar_project: Projeto Solar
       worked_as_java_dev: Trabalhei como estagiário em desenvolvimento web com Java
       at_virtual_ufc: no sistema de avaliação do Instituto UFC Virtual durante o bacharelado em Sistemas e Mídias Digitais pela Universidade Federal do Ceará.
+
+  education:
+    title: Educação
+    bachelor: Bacharelado
+    unfinished_at: Bacharelado incompleto em Sistemas e Mídias Digitais com foco em Sistemas Multimídia pela
